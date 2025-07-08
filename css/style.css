@@ -1,0 +1,50 @@
+/* * {
+    outline: 1px dotted red;
+} */
+/* * {
+    color: transparent !important;
+    background-image: none !important;
+}
+div {
+    border: 1px solid blue !important;
+    min-height: 20px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color-scheme: light only;
+    font-size: 14px;
+}
+
+* {
+    font-family: "Inter", helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7fbcd7;
+}
+
+/* === CONTENIDORS NIVELL 1 === */
+.CONT_1_EXT {
+    max-width: 750px;
+    width: 95%;
+    display: flex;
+    outline: 6px solid #000000;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    overflow: hidden;
+    height: fit-content;
+    background-color: white;
+}
+
+
+/* 2025-07-08 13:00 */
